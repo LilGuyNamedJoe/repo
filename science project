@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Website</title>
+    <style>
+        /* Sleek black dark theme styling */
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Main background set to black */
+            color: #f0f6fc; /* Light text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            background: #161b22; /* Dark gray container for contrast */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(255,255,255,0.05);
+            text-align: center;
+            border: 1px solid #30363d; /* Subtle border line */
+        }
+        h1 {
+            color: #ffffff;
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #8b949e; /* Soft gray for description text */
+        }
+        .btn {
+            display: inline-block;
+            background-color: #238636; /* GitHub green color */
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+        .btn:hover {
+            background-color: #2ea44f;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Joe's Website 👋</h1>
+        <p>My sites</p>
+        
+        <!-- Button linked directly to your science project -->
+        <a href="https://lilguynamedjoe.github.io/scienceproject" class="btn">View Science Project</a>
+    </div>
+
+</body>
+</html>
